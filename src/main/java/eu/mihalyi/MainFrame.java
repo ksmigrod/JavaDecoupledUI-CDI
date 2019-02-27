@@ -1,6 +1,7 @@
 
 package eu.mihalyi;
 
+import javax.enterprise.context.Dependent;
 import javax.enterprise.event.Event;
 import javax.inject.Inject;
 import javax.swing.JLabel;
@@ -9,6 +10,7 @@ import javax.swing.JLabel;
  *
  * @author ondrej.mihalyi
  */
+@Dependent
 class MainFrame extends javax.swing.JFrame {
 
     @Inject Event<ChangeValueAction> changeValueAction;

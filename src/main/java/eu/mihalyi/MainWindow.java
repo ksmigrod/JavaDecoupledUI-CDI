@@ -1,9 +1,12 @@
 package eu.mihalyi;
 
+import javax.enterprise.context.Dependent;
+
 /**
  *
  * @author ondrej.mihalyi
  */
+@Dependent
 public class MainWindow extends MainFrame {
 
     public void display() {
